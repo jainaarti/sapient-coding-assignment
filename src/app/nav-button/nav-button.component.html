@@ -1,0 +1,4 @@
+<div *ngFor="let val of options.buttonValue" class='btn'>
+    <button type="button" class="navButton" id="{{options.id}}" name="{{options.name}}" value="{{val}}"
+        (click)=buttonClicked($event)>{{val}}</button>
+</div>

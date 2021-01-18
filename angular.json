@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "coding-assigment"
+  "defaultProject": "coding-assigment",
+  "cli": {
+    "analytics": false
+  }
 }

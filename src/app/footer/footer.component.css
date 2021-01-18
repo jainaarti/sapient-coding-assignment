@@ -1,0 +1,7 @@
+h3 {
+    display: flex;
+    line-height: 20px;
+    bottom: 0px;
+    justify-content: center;
+    flex-shrink: 0;
+  }

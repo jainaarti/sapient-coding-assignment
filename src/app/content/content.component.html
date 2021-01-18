@@ -1,0 +1,23 @@
+<div class="content marginRight marginLeft">
+    <div class="navBar">
+        <b>Filters</b>
+        <div>LAUNCH YEAR</div>
+        <div>
+            <app-nav-button [options]='yearArray' (onClick)="getByID($event)" class="flexContainer"></app-nav-button>
+        </div>
+        <hr>
+        <div>
+            <p>Successfull Launch</p>
+            <app-nav-button [options]='launchArray' (onClick)="getByID($event)" class="flexContainer"></app-nav-button>
+        </div>
+        <hr>
+        <div>
+            <p>Successfull Landing</p>
+            <app-nav-button [options]='landingArray' (onClick)="getByID($event)" class="flexContainer"></app-nav-button>
+        </div>
+    </div>
+
+    <div class="tileContainer">
+        <app-tiles [data]='missions' class="flexContainer"></app-tiles>
+    </div>
+</div>

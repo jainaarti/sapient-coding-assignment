@@ -1,0 +1,13 @@
+.navButton {
+      display: flex; 
+      border: 0;
+      background-color: rgb(103, 179, 137);
+      border-radius: 5px;
+      padding: 20%;
+  }
+  .navButton:hover{
+      background-color: limegreen;
+  }
+  .btn{
+    padding: 10px;
+  }
